@@ -18,11 +18,12 @@
     font-feature-settings: 'pnum' on, 'lnum' on
     color: #000000
     z-index: 2
-    &::before
-        content: ''
-        position: absolute
-        top: 50%
-        height: 25%
-        width: 100%
-        background: #FFECA0
-        z-index: -1
+    &_highlighted    
+        &::before
+            content: ''
+            position: absolute
+            top: 50%
+            height: 25%
+            width: 100%
+            background: #FFECA0
+            z-index: -1
