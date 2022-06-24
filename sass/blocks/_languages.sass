@@ -1,17 +1,33 @@
 .languages
     &__wrapper
-        padding: 75px 160px
+        padding: 30px
         background: #FFFBED
         border-radius: 70px
+        min-height: 275px
     &__block
+        margin: 0 auto
+        max-width: 830px
         margin-top: 40px
         display: flex
         justify-content: space-between
         align-items: center
+        flex-wrap: wrap
+        gap: 20px
     &__item
         display: flex
         justify-content: center
         align-items: center
         gap: 30px
         list-style: none
+
+@media (max-width: 576px)
+    .languages
+        &__wrapper
+            padding: 20px
+        &__title
+            margin-left: 10px
+        &__block
+            margin-top: 20px
+            flex-direction: column
+            align-items: flex-start
 

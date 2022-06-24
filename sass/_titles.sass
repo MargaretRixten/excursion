@@ -18,17 +18,18 @@
     font-feature-settings: 'pnum' on, 'lnum' on
     color: #000000
     z-index: 2
-    &_highlighted    
-        &::before
-            content: ''
-            position: absolute
-            top: 50%
-            height: 25%
-            width: 100%
-            background: #FFECA0
-            z-index: -1
+    &_highlighted
+        background: rgb(255,236,160)
+        background: linear-gradient(0deg, rgba(255,236,160,1) 43%, rgba(255,255,255,0) 55%)
 .subtitle
     font-weight: 500
     font-size: 18px
     font-feature-settings: 'pnum' on, 'lnum' on
     color: #000000
+
+@media (max-width: 576px)
+    .main-title
+        font-size: 30px
+        line-height: 45px
+    .subtitle, .title_highlighted
+        font-size: 14px

@@ -11,3 +11,22 @@
         justify-content: flex-start
         align-items: center
         gap: 100px
+
+@media (max-width: 1200px)
+    .promo
+        &__block
+            flex-wrap: wrap
+            justify-content: center
+            gap: 40px
+        &__education
+            justify-content: center
+            gap: 45px
+
+@media (max-width: 576px)
+    .promo
+        &__main-img
+            width: 320px
+        &__education
+            flex-direction: column
+    
+    

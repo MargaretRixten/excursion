@@ -17,18 +17,37 @@
         <div class="container">
             <div class="header__wrapper">
                 <a href="#"><img src="img/logo/Logo 2.png" alt="logo" class="header__logo"></a>
-                <div class="header__education">
-                    <a href="#" class="header__link">Обучение детей </a>
-                    <a href="#" class="header__link">Обучение взрослых</a>
-                </div>
-                <div class="header__block">
-                    <div class="header__social-media social-media">
-                        <a href="" class="social-media_item"><img src="img/icons/facebook.svg" alt="facebook" class="social-media_img"></a>
-                        <a href="" class="social-media_item"><img src="img/icons/instagram.svg" alt="instagram" class="social-media_img"></a>
-                        <a href="" class="social-media_item"><img src="img/icons/whatsapp.svg" alt="whatsapp" class="social-media_img"></a>
-                        <a href="" class="social-media_item"><img src="img/icons/vk.svg" alt="vk" class="social-media_img"></a>
+                <nav class="nav">
+                    <div class="nav__wrapper">
+                        <a class="header__menu-logo d-none" href="#"><img src="img/logo/Logo 2.png" alt="logo" class="header__logo"></a>
+                        <img src="img/modal/close.svg" alt="logo" class="header__close d-none">
+                        <div class="header__education">
+                            <a href="#" class="header__link">Обучение детей </a>
+                            <a href="#" class="header__link">Обучение взрослых</a>
+                        </div>
+                        <div class="header__block">
+                            <div class="header__social-media social-media">
+                                <a href="" class="social-media_item"><img src="img/icons/facebook.svg" alt="facebook" class="social-media_img"></a>
+                                <a href="" class="social-media_item"><img src="img/icons/instagram.svg" alt="instagram" class="social-media_img"></a>
+                                <a href="" class="social-media_item"><img src="img/icons/whatsapp.svg" alt="whatsapp" class="social-media_img"></a>
+                                <a href="" class="social-media_item"><img src="img/icons/vk.svg" alt="vk" class="social-media_img"></a>
+                            </div>
+                            <a href="" class="header__phone"><img src="img/icons/phone.svg" alt="phone"></a>
+                        </div>
+                        <div class="contacts">
+                            <h2 class="subtitle contacts__subtitle">Контакты</h2>
+                            <div class="description contacts__phone">+7 (495) 723-75-15</div>
+                            <div class="description contacts__mail">info@speaky.school</div>
+                            <p class="description contacts__address">108840, Россия, <br>
+                                г. Москва, г. Троицк, <br>
+                                Троицкий бульвар, 6</p>
+                        </div>
                     </div>
-                    <a href="" class="header__phone"><img src="img/icons/phone.svg" alt="phone"></a>
+                </nav>
+                <div class="hamburger hamburger_active">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
             </div>
         </div>
@@ -53,7 +72,7 @@
     <section class="languages">
         <div class="container">
             <div class="languages__wrapper">
-                <h2 class="title title_highlighted">У нас вы можете выучить:</h2>
+                <h2 class="title title_highlighted languages__title">У нас вы можете выучить:</h2>
                 <ul class="languages__block">
                     <li class="languages__item">
                         <img src="img/icons/united-kingdom.svg" alt="united-kingdom">
@@ -231,6 +250,7 @@
             </div>
         </div>
     </section>
-    <script src="js/script.js"></script>
+    <script src="js/smart.js"></script>
+    <script src="js/hamburger.js"></script>
 </body>
 </html>
