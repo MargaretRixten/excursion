@@ -1,0 +1,32 @@
+.for-everyone
+    &__wrapper
+        padding: 70px 0
+        margin: 0 auto
+        max-width: 1030px
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__adult
+        flex-direction: row-reverse
+    &__block
+        margin-top: 30px
+        max-width: 415px
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 30px
+    &__item
+        position: relative
+        margin-top: 14px
+        list-style: none
+        &::before
+            content: '✓'
+            position: absolute
+            top: 3px
+            left: -22px
+        &:first-child
+            position: static
+            font-weight: 500
+            font-size: 18px
+            font-feature-settings: 'pnum' on, 'lnum' on
+            color: #000000
